@@ -13,14 +13,14 @@ export default function TermsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>1. Acceptance of Terms</Text>
         <Text style={styles.text}>
-          By accessing and using SafeRoute, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our service.
+          By accessing and using SafelyRoute, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our service.
         </Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>2. Use License</Text>
         <Text style={styles.text}>
-          Permission is granted to temporarily download one copy of SafeRoute for personal, non-commercial transitory viewing only. This license does not include:
+          Permission is granted to temporarily download one copy of SafelyRoute for personal, non-commercial transitory viewing only. This license does not include:
         </Text>
         <View style={styles.list}>
           <Text style={styles.listItem}>• Modifying or copying the materials</Text>
@@ -32,7 +32,7 @@ export default function TermsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>3. User Responsibilities</Text>
         <Text style={styles.text}>
-          As a user of SafeRoute, you agree to:
+          As a user of SafelyRoute, you agree to:
         </Text>
         <View style={styles.list}>
           <Text style={styles.listItem}>• Provide accurate information</Text>
@@ -44,14 +44,14 @@ export default function TermsScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>4. Disclaimer</Text>
         <Text style={styles.text}>
-          SafeRoute is provided "as is" without any warranties, expressed or implied. We do not guarantee the accuracy, reliability, or availability of the service.
+          SafelyRoute is provided "as is" without any warranties, expressed or implied. We do not guarantee the accuracy, reliability, or availability of the service.
         </Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>5. Limitations</Text>
         <Text style={styles.text}>
-          In no event shall SafeRoute be liable for any damages arising out of the use or inability to use the service.
+          In no event shall SafelyRoute be liable for any damages arising out of the use or inability to use the service.
         </Text>
       </View>
 
@@ -67,7 +67,7 @@ export default function TermsScreen() {
         <Text style={styles.text}>
           If you have any questions about these Terms of Service, please contact us at:
         </Text>
-        <Text style={styles.contactInfo}>legal@saferoute.com</Text>
+        <Text style={styles.contactInfo}>legal@safelyroute.com</Text>
       </View>
     </ScrollView>
   );

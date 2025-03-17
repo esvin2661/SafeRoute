@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link href="/" asChild>
         <TouchableOpacity style={styles.logoContainer}>
           <Ionicons name="shield-checkmark" size={24} color="#4CAF50" />
-          <Text style={styles.logoText}>SafeRoute</Text>
+          <Text style={styles.logoText}>SafelyRoute</Text>
         </TouchableOpacity>
       </Link>
       

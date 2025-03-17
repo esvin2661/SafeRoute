@@ -21,7 +21,7 @@ export default function ContactScreen() {
         <TouchableOpacity style={styles.contactOption}>
           <Ionicons name="mail-outline" size={24} color="#4CAF50" />
           <Text style={styles.optionText}>Email Us</Text>
-          <Text style={styles.optionDetail}>support@saferoute.com</Text>
+          <Text style={styles.optionDetail}>support@safelyroute.com</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.contactOption}>

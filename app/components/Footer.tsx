@@ -10,7 +10,7 @@ const Footer = () => {
         <View style={styles.companyInfo}>
           <View style={styles.logoContainer}>
             <Ionicons name="shield-checkmark" size={24} color="#4CAF50" />
-            <Text style={styles.logoText}>SafeRoute</Text>
+            <Text style={styles.logoText}>SafelyRoute</Text>
           </View>
           <Text style={styles.companyDescription}>
             Making your journey safer with real-time navigation and safety alerts.
@@ -64,7 +64,7 @@ const Footer = () => {
 
       <View style={styles.bottomSection}>
         <Text style={styles.copyright}>
-          © {new Date().getFullYear()} SafeRoute. All rights reserved.
+          © {new Date().getFullYear()} SafelyRoute. All rights reserved.
         </Text>
         <View style={styles.socialLinks}>
           <TouchableOpacity style={styles.socialIcon}>

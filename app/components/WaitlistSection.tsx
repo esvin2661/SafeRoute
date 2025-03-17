@@ -23,7 +23,7 @@ const WaitlistSection = () => {
         <Ionicons name="people" size={40} color="#4CAF50" />
         <Text style={styles.title}>Join Our Waitlist</Text>
         <Text style={styles.subtitle}>
-          Be among the first to experience SafeRoute's innovative safety features
+          Be among the first to experience SafelyRoute's innovative safety features
         </Text>
 
         <View style={styles.form}>

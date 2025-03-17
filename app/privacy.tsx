@@ -58,7 +58,7 @@ export default function PrivacyScreen() {
         <Text style={styles.text}>
           If you have any questions about this Privacy Policy, please contact us at:
         </Text>
-        <Text style={styles.contactInfo}>privacy@saferoute.com</Text>
+        <Text style={styles.contactInfo}>privacy@safelyroute.com</Text>
       </View>
     </ScrollView>
   );

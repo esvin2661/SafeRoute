@@ -13,7 +13,7 @@ export default function AboutScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Our Mission</Text>
         <Text style={styles.text}>
-          SafeRoute is dedicated to making your journey safer and more informed. We combine real-time data
+          SafelyRoute is dedicated to making your journey safer and more informed. We combine real-time data
           with intelligent routing to help you navigate with confidence.
         </Text>
       </View>
