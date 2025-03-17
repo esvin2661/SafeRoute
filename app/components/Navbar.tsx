@@ -20,15 +20,23 @@ const Navbar = () => {
           </TouchableOpacity>
         </Link>
 
-
         <Link href="/contact" asChild>
           <TouchableOpacity style={styles.navItem}>
             <Text style={styles.navText}>Contact</Text>
           </TouchableOpacity>
         </Link>
-        <TouchableOpacity style={styles.getStartedButton}>
-          <Text style={styles.getStartedText}>Get Started</Text>
-        </TouchableOpacity>
+
+        <Link href="/privacy" asChild>
+          <TouchableOpacity style={styles.navItem}>
+            <Text style={styles.navText}>Privacy</Text>
+          </TouchableOpacity>
+        </Link>
+
+        <Link href="/waitlist" asChild>
+          <TouchableOpacity style={styles.getStartedButton}>
+            <Text style={styles.getStartedText}>Join Waitlist</Text>
+          </TouchableOpacity>
+        </Link>
       </View>
     </View>
   );
