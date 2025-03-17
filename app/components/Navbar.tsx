@@ -19,6 +19,8 @@ const Navbar = () => {
             <Text style={styles.navText}>About</Text>
           </TouchableOpacity>
         </Link>
+
+
         <Link href="/contact" asChild>
           <TouchableOpacity style={styles.navItem}>
             <Text style={styles.navText}>Contact</Text>
@@ -40,6 +42,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 15,
     backgroundColor: 'white',
+    width: '100%',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
